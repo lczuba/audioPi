@@ -12,5 +12,5 @@
     <project path="poky" name="poky" remote="yoctoproject" revision="dunfell" />
     <project path="meta-raspberrypi" name="meta-raspberrypi" remote="yoctoproject" revision="dunfell" />
     <project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="dunfell" />
-    <project path="meta-rust" name="meta-rust/meta-rust" remote="github" revision="master" />
+    <project path="meta-rust" name="meta-rust/meta-rust" remote="github" revision="b67791b7533f8d4b42448c56adf12bfa568d6188" />
 </manifest>
