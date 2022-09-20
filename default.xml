@@ -1,1 +1,12 @@
-test
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+    <remote name="lczuba"
+            fetch=".."
+            review ="https://github.com/lczuba/" />
+    <default remote="lczuba"
+             revision="master"
+             sync-j="4" />
+
+    <project path="algorithms_cpp" name="algorithms_cpp"/>
+</manifest>
