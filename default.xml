@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <manifest>
-    <remote name="lczuba"
-            fetch=".."
-            review ="https://github.com/lczuba/" />
-    <default remote="lczuba"
-             revision="dunfell"
-             sync-j="4" />
+    <remote name="lczuba" fetch=".." review ="https://github.com/lczuba/" />
+    <remote fetch="git://git.yoctoproject.org" name="yoctoproject" />
+    <remote fetch="git://git.openembedded.org" name="openembedded" />
+    <remote fetch="https://github.com" name="github" />
+
+    <default remote="lczuba" revision="dunfell" sync-j="4" />
 
     <project path="meta-audiopi" name="lczuba/meta-audiopi" revision="main" />
+    <project path="poky" name="poky" remote="yoctoproject" revision="dunfell" />
+    <project path="meta-raspberrypi" name="meta-raspberrypi" remote="yoctoproject" revision="dunfell" />
+    <project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="dunfell" />
+    <project path="meta-rust" name="meta-rust/meta-rust" remote="github" revision="master" />
 </manifest>
