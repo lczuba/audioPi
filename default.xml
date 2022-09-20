@@ -5,8 +5,8 @@
             fetch=".."
             review ="https://github.com/lczuba/" />
     <default remote="lczuba"
-             revision="master"
+             revision="dunfell"
              sync-j="4" />
 
-    <project path="meta-audiopi" name="lczuba/meta-audiopi"/>
+    <project path="meta-audiopi" name="lczuba/meta-audiopi" revision="main" />
 </manifest>
