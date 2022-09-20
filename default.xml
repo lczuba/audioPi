@@ -8,5 +8,5 @@
              revision="master"
              sync-j="4" />
 
-    <project path="algorithms_cpp" name="lczuba/algorithms_cpp"/>
+    <project path="meta-audiopi" name="lczuba/meta-audiopi"/>
 </manifest>
